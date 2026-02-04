@@ -29,8 +29,8 @@ func TestGetAPIKey(t *testing.T) {
 			wantErr: true,
 		},
 		{
-			name: "inexistent header",
-			input: http.Header{},
+			name:    "inexistent header",
+			input:   http.Header{},
 			want:    "",
 			wantErr: true,
 		},
