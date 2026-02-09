@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-go@v5
 
       - name: build binary
-        run: ./scripts/buildprod.shN
+        run: ./scripts/buildprod.sh
 
       - name: setup-gcloud auth
         id: "auth"
